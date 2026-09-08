@@ -1,0 +1,9 @@
+# Etat Terraform, jamais versionne
+*.tfstate
+*.tfstate.*
+
+# Cache local des providers
+**/.terraform/
+
+# Fichiers de variables locaux (peuvent contenir votre project_id)
+*.tfvars
