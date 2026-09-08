@@ -12,3 +12,8 @@ autres binomes sur le projet de formation partage.
 
 Regle : `<prefixe>-<type-de-ressource>[-<numero>]`, toujours en
 minuscules, sans accent, sans caractere souligne (tirets uniquement).
+
+## Regle de pare-feu web
+Le port 80 est ouvert a 0.0.0.0/0 car le service doit pouvoir etre
+verifie depuis l'exterieur du reseau de formation (poste du formateur,
+tests hors site).
